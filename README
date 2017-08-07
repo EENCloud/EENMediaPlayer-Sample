@@ -2,13 +2,13 @@ This is a basic sample project meant to display several different configurations
 
 Within the sample there are two files of interest.
 
-LoginController - This handles the authorization and authentication logic in order to grab a valid auth token to use for fetching video. The controller is configured to pre-fill the mobile-demo account by default. To use your own account you can modify the initialization code in viewDidLoad or enter it view the GUI that appears from the phone itself.
+LoginController - This handles the authorization and authentication logic in order to grab a valid auth token to use for fetching video. The controller is configured to pre-fill the mobile-demo account by default. To use your own account you can modify the initialization code in viewDidLoad or enter it in the GUI that appears from the phone itself.
 
 
 VideoViewController - This controller handles fetching and displaying video via the EENMediaPlayer embedded view. The controller currently configured to display full screen live video by default. By modifying the “mode” variable within the controller it can easily be switched to either historical video, or live video without any interactive controls.
 
 
-Importing EENMediaPlayer into your own project. If the project is already utilizing cocoa pods you can skip directly to step .-
+Importing EENMediaPlayer into your own project. If the project is already utilizing cocoa pods you can skip directly to step 3.
 
  1. Install Cocoapods
 	a. sudo gem install cocoapods
