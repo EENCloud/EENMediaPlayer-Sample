@@ -1,0 +1,24 @@
+This is a basic sample project meant to display several different configurations of the EENMediaPlayer. The EENMediaPlayer framework is imported via cocoa pods and linked automatically to the application. EENMediaPlayer itself is a custom view that can be embedded anywhere you could normally use a UIView in your application. Video is automatically downloaded and starts playing after calling the startStream: function on the MediaPlayer view. 
+
+Within the sample there are two files of interest.
+
+LoginController - This handles the authorization and authentication logic in order to grab a valid auth token to use for fetching video. The controller is configured to pre-fill the mobile-demo account by default. To use your own account you can modify the initialization code in viewDidLoad or enter it view the GUI that appears from the phone itself.
+
+
+VideoViewController - This controller handles fetching and displaying video via the EENMediaPlayer embedded view. The controller currently configured to display full screen live video by default. By modifying the “mode” variable within the controller it can easily be switched to either historical video, or live video without any interactive controls.
+
+
+Importing EENMediaPlayer into your own project. If the project is already utilizing cocoa pods you can skip directly to step .-
+
+ 1. Install Cocoapods
+	a. sudo gem install cocoapods
+
+ 2. Initialize cocoa pods from within your project folder (pod init)
+	a. pod init
+
+ 3. Include the following two lines at the top of your Podfile
+	a. source 'https://github.com/CocoaPods/Specs.git'
+	b. source 'https://github.com/EENCloud/EENMediaPlayer-Public.git'
+ 
+ 4. Add the following line within your cocoa pods target dependencies.
+	a. pod 'EENMediaPlayer'

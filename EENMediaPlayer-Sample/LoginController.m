@@ -8,6 +8,7 @@
 
 #import "LoginController.h"
 #import <AFNetworking/AFNetworking.h>
+#import "VideoViewController.h"
 
 @interface LoginController ()
 @property (weak, nonatomic) IBOutlet UITextField *userField;
@@ -23,8 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.sessionManager = [AFHTTPSessionManager manager];
-    _userField.text = @"gslomin+ios2@eagleeyenetworks.com";
-    _passField.text = @"iufan4lifeul";
+    
+    _userField.text = @"demomobile@eagleeyenetworks.com";
+    _passField.text = @"workingwell";
     _esnField.text = @"1000f60d";
     // Do any additional setup after loading the view.
 }
@@ -77,7 +79,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    ViewController *vc = [segue destinationViewController];
+    VideoViewController *vc = [segue destinationViewController];
     vc.cluster = self.cluster;
     vc.esn = self.esnField.text;
 }
