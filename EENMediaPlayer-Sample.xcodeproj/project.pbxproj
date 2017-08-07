@@ -13,18 +13,9 @@
 		06956F8D1F38D4A400796FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06956F8B1F38D4A400796FBC /* Main.storyboard */; };
 		06956F8F1F38D4A400796FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06956F8E1F38D4A400796FBC /* Assets.xcassets */; };
 		06956F921F38D4A400796FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06956F901F38D4A400796FBC /* LaunchScreen.storyboard */; };
-		06956F9D1F38D4A400796FBC /* EENMediaPlayer_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06956F9C1F38D4A400796FBC /* EENMediaPlayer_SampleUITests.m */; };
+		06956FA91F38D5E800796FBC /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06956FA81F38D5E800796FBC /* LoginController.m */; };
+		39A8685816AABEA3A09EBA33 /* libPods-EENMediaPlayer-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9471726E1581AC8BF55C8B75 /* libPods-EENMediaPlayer-Sample.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		06956F991F38D4A400796FBC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 06956F771F38D4A400796FBC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06956F7E1F38D4A400796FBC;
-			remoteInfo = "EENMediaPlayer-Sample";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06956F7F1F38D4A400796FBC /* EENMediaPlayer-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EENMediaPlayer-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +28,14 @@
 		06956F8E1F38D4A400796FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06956F911F38D4A400796FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06956F931F38D4A400796FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06956F981F38D4A400796FBC /* EENMediaPlayer-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EENMediaPlayer-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06956F9C1F38D4A400796FBC /* EENMediaPlayer_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EENMediaPlayer_SampleUITests.m; sourceTree = "<group>"; };
-		06956F9E1F38D4A400796FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06956FA71F38D5E800796FBC /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		06956FA81F38D5E800796FBC /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		9471726E1581AC8BF55C8B75 /* libPods-EENMediaPlayer-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EENMediaPlayer-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41DEB5359DC249829523DDE /* Pods-EENMediaPlayer-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EENMediaPlayer-SampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EENMediaPlayer-SampleUITests/Pods-EENMediaPlayer-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D621A84C810F7566FE65BF76 /* libPods-EENMediaPlayer-SampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EENMediaPlayer-SampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED520EA689246791ED4AACD2 /* Pods-EENMediaPlayer-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EENMediaPlayer-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EENMediaPlayer-Sample/Pods-EENMediaPlayer-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C8CE5A0EF8CCC353575B29 /* Pods-EENMediaPlayer-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EENMediaPlayer-SampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EENMediaPlayer-SampleUITests/Pods-EENMediaPlayer-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3A01D6887DDFF601D36AFC /* Pods-EENMediaPlayer-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EENMediaPlayer-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-EENMediaPlayer-Sample/Pods-EENMediaPlayer-Sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06956F951F38D4A400796FBC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				39A8685816AABEA3A09EBA33 /* libPods-EENMediaPlayer-Sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				06956F811F38D4A400796FBC /* EENMediaPlayer-Sample */,
-				06956F9B1F38D4A400796FBC /* EENMediaPlayer-SampleUITests */,
 				06956F801F38D4A400796FBC /* Products */,
+				DCC018C5F4FDC06269CA9629 /* Pods */,
+				A3A6A333D875E11659C43E30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				06956F7F1F38D4A400796FBC /* EENMediaPlayer-Sample.app */,
-				06956F981F38D4A400796FBC /* EENMediaPlayer-SampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +71,8 @@
 		06956F811F38D4A400796FBC /* EENMediaPlayer-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				06956FA71F38D5E800796FBC /* LoginController.h */,
+				06956FA81F38D5E800796FBC /* LoginController.m */,
 				06956F851F38D4A400796FBC /* AppDelegate.h */,
 				06956F861F38D4A400796FBC /* AppDelegate.m */,
 				06956F881F38D4A400796FBC /* ViewController.h */,
@@ -102,13 +94,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		06956F9B1F38D4A400796FBC /* EENMediaPlayer-SampleUITests */ = {
+		A3A6A333D875E11659C43E30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06956F9C1F38D4A400796FBC /* EENMediaPlayer_SampleUITests.m */,
-				06956F9E1F38D4A400796FBC /* Info.plist */,
+				9471726E1581AC8BF55C8B75 /* libPods-EENMediaPlayer-Sample.a */,
+				D621A84C810F7566FE65BF76 /* libPods-EENMediaPlayer-SampleUITests.a */,
 			);
-			path = "EENMediaPlayer-SampleUITests";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCC018C5F4FDC06269CA9629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED520EA689246791ED4AACD2 /* Pods-EENMediaPlayer-Sample.debug.xcconfig */,
+				FE3A01D6887DDFF601D36AFC /* Pods-EENMediaPlayer-Sample.release.xcconfig */,
+				A41DEB5359DC249829523DDE /* Pods-EENMediaPlayer-SampleUITests.debug.xcconfig */,
+				F3C8CE5A0EF8CCC353575B29 /* Pods-EENMediaPlayer-SampleUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06956FA11F38D4A400796FBC /* Build configuration list for PBXNativeTarget "EENMediaPlayer-Sample" */;
 			buildPhases = (
+				3E47F960A39465FFF5149C7B /* [CP] Check Pods Manifest.lock */,
 				06956F7B1F38D4A400796FBC /* Sources */,
 				06956F7C1F38D4A400796FBC /* Frameworks */,
 				06956F7D1F38D4A400796FBC /* Resources */,
+				F15E869F822360CD420C60AF /* [CP] Embed Pods Frameworks */,
+				DE751F40D183BFEAC7CA6525 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,24 +136,6 @@
 			productName = "EENMediaPlayer-Sample";
 			productReference = 06956F7F1F38D4A400796FBC /* EENMediaPlayer-Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		06956F971F38D4A400796FBC /* EENMediaPlayer-SampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06956FA41F38D4A400796FBC /* Build configuration list for PBXNativeTarget "EENMediaPlayer-SampleUITests" */;
-			buildPhases = (
-				06956F941F38D4A400796FBC /* Sources */,
-				06956F951F38D4A400796FBC /* Frameworks */,
-				06956F961F38D4A400796FBC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06956F9A1F38D4A400796FBC /* PBXTargetDependency */,
-			);
-			name = "EENMediaPlayer-SampleUITests";
-			productName = "EENMediaPlayer-SampleUITests";
-			productReference = 06956F981F38D4A400796FBC /* EENMediaPlayer-SampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -161,11 +149,6 @@
 					06956F7E1F38D4A400796FBC = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
-					};
-					06956F971F38D4A400796FBC = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 06956F7E1F38D4A400796FBC;
 					};
 				};
 			};
@@ -183,7 +166,6 @@
 			projectRoot = "";
 			targets = (
 				06956F7E1F38D4A400796FBC /* EENMediaPlayer-Sample */,
-				06956F971F38D4A400796FBC /* EENMediaPlayer-SampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,14 +181,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06956F961F38D4A400796FBC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E47F960A39465FFF5149C7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		DE751F40D183BFEAC7CA6525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EENMediaPlayer-Sample/Pods-EENMediaPlayer-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F15E869F822360CD420C60AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EENMediaPlayer-Sample/Pods-EENMediaPlayer-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		06956F7B1F38D4A400796FBC /* Sources */ = {
@@ -214,28 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06956F8A1F38D4A400796FBC /* ViewController.m in Sources */,
+				06956FA91F38D5E800796FBC /* LoginController.m in Sources */,
 				06956F871F38D4A400796FBC /* AppDelegate.m in Sources */,
 				06956F841F38D4A400796FBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06956F941F38D4A400796FBC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06956F9D1F38D4A400796FBC /* EENMediaPlayer_SampleUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		06956F9A1F38D4A400796FBC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06956F7E1F38D4A400796FBC /* EENMediaPlayer-Sample */;
-			targetProxy = 06956F991F38D4A400796FBC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		06956F8B1F38D4A400796FBC /* Main.storyboard */ = {
@@ -351,6 +359,7 @@
 		};
 		06956FA21F38D4A400796FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED520EA689246791ED4AACD2 /* Pods-EENMediaPlayer-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "EENMediaPlayer-Sample/Info.plist";
@@ -362,34 +371,13 @@
 		};
 		06956FA31F38D4A400796FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3A01D6887DDFF601D36AFC /* Pods-EENMediaPlayer-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "EENMediaPlayer-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eagleeye.EENMediaPlayer-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		06956FA51F38D4A400796FBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "EENMediaPlayer-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eagleeye.EENMediaPlayer-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "EENMediaPlayer-Sample";
-			};
-			name = Debug;
-		};
-		06956FA61F38D4A400796FBC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "EENMediaPlayer-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eagleeye.EENMediaPlayer-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "EENMediaPlayer-Sample";
 			};
 			name = Release;
 		};
@@ -412,14 +400,7 @@
 				06956FA31F38D4A400796FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		06956FA41F38D4A400796FBC /* Build configuration list for PBXNativeTarget "EENMediaPlayer-SampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06956FA51F38D4A400796FBC /* Debug */,
-				06956FA61F38D4A400796FBC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

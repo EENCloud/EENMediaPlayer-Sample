@@ -1,15 +1,20 @@
 //
 //  ViewController.h
-//  EENMediaPlayer-Sample
+//  TestPlayer
 //
-//  Created by Greg Slomin on 8/7/17.
-//  Copyright © 2017 Greg Slomin. All rights reserved.
+//  Created by Greg Slomin on 6/1/16.
+//  Copyright © 2016 Eagle Eye Networks. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <EENMediaPlayer/EENMediaPlayer.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<EENMediaPlayerDelegate>
+@property (nonatomic, retain) NSString *cluster;
+@property (nonatomic, retain) NSString *esn;
+@property (nonatomic, retain) NSString *startTime;
+@property (nonatomic, retain) NSString *endTime;
 
 @end
 
