@@ -11,9 +11,4 @@ target 'EENMediaPlayer-Sample' do
   # Pods for EENMediaPlayer-Sample
   pod 'EENMediaPlayer'
   pod 'AFNetworking', '~> 3.1'
-  target 'EENMediaPlayer-SampleUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
